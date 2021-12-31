@@ -14,8 +14,15 @@ function App() {
         <Typography variant={"h1"} fontWeight={500} fontSize={"1.5rem"}>
           Hong Kong Inbound Travel Restrictions Map
         </Typography>
+        <Typography fontSize={"1rem"}>
+          Updated at 2021/12/31 12:00 GMT+8
+        </Typography>
         <Typography fontSize={"1rem"} marginBottom={"1rem"}>
-          Updated at 2021/12/31 09:00 GMT+8
+          All data based on the{" "}
+          <a href="https://www.coronavirus.gov.hk/eng/inbound-travel.html" target="_blank">
+            official website
+          </a>
+          .
         </Typography>
         <MapLegend />
       </header>
@@ -23,7 +30,7 @@ function App() {
         <ReactTooltip>{content}</ReactTooltip>
         <MapChart setTooltipContent={setContent} />
       </div>
-      <Stack className="footer" >
+      <Stack className="footer">
         <a href="https://github.com/alexawhy">
           <GitHub sx={{ color: "white" }} fontSize={"large"} />
         </a>

@@ -18,3 +18,11 @@ code {
 :focus {
     outline: none;
 }
+
+a {
+    color: #FFD166;
+}
+
+a:hover {
+    color: #EF476F;
+}
