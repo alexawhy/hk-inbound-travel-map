@@ -1,6 +1,6 @@
 {
   "name": "hk-inbound-travel-map",
-  "homepage": "https://alexawhy.github.io/hk-inbound-travel-map",
+  "homepage": "http://alexawhy.github.io/hk-inbound-travel-map",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,12 +1,12 @@
 import React from "react"
 import { PatternLines } from "@vx/pattern"
-import { Typography } from "@mui/material"
+import { Box, Typography } from "@mui/material"
 import { Stack } from "@mui/material"
 
 const APlusLegend = () => {
   return (
-    <svg width={"2rem"} height={"2rem"}>
-      <rect fill="#EF476F" x={0} y={0} width={"2rem"} height={"2rem"} />
+    <svg width={"1.5rem"} height={"1.5rem"}>
+      <rect fill="#EF476F" x={0} y={0} width={"1.5rem"} height={"1.5rem"} />
     </svg>
   )
 }
@@ -27,14 +27,14 @@ export const AToAPlusPatternLines = () => {
 
 const AToAPlusLegend = () => {
   return (
-    <svg width={"2rem"} height={"2rem"}>
+    <svg width={"1.5rem"} height={"1.5rem"}>
       <AToAPlusPatternLines />
       <rect
         fill="url('#to-be-a-plus-lines')"
         x={0}
         y={0}
-        width={"2rem"}
-        height={"2rem"}
+        width={"1.5rem"}
+        height={"1.5rem"}
       />
     </svg>
   )
@@ -42,8 +42,8 @@ const AToAPlusLegend = () => {
 
 const ALegend = () => {
   return (
-    <svg width={"2rem"} height={"2rem"}>
-      <rect fill="#FFD166" x={0} y={0} width={"2rem"} height={"2rem"} />
+    <svg width={"1.5rem"} height={"1.5rem"}>
+      <rect fill="#FFD166" x={0} y={0} width={"1.5rem"} height={"1.5rem"} />
     </svg>
   )
 }
@@ -64,14 +64,14 @@ export const BToAPatternLines = () => {
 
 const BToALegend = () => {
   return (
-    <svg width={"2rem"} height={"2rem"}>
+    <svg width={"1.5rem"} height={"1.5rem"}>
       <BToAPatternLines />
       <rect
         fill="url('#to-be-a-lines')"
         x={0}
         y={0}
-        width={"2rem"}
-        height={"2rem"}
+        width={"1.5rem"}
+        height={"1.5rem"}
       />
     </svg>
   )
@@ -79,78 +79,88 @@ const BToALegend = () => {
 
 const BLegend = () => {
   return (
-    <svg width={"2rem"} height={"2rem"}>
-      <rect fill="#06D6A0" x={0} y={0} width={"2rem"} height={"2rem"} />
+    <svg width={"1.5rem"} height={"1.5rem"}>
+      <rect fill="#06D6A0" x={0} y={0} width={"1.5rem"} height={"1.5rem"} />
     </svg>
   )
 }
 
 const CLegend = () => {
   return (
-    <svg width={"2rem"} height={"2rem"}>
-      <rect fill="#118AB2" x={0} y={0} width={"2rem"} height={"2rem"} />
+    <svg width={"1.5rem"} height={"1.5rem"}>
+      <rect fill="#118AB2" x={0} y={0} width={"1.5rem"} height={"1.5rem"} />
     </svg>
   )
 }
 
 const CHNTWNLegend = () => {
   return (
-    <svg width={"2rem"} height={"2rem"}>
-      <rect fill="#073B4C" x={0} y={0} width={"2rem"} height={"2rem"} />
+    <svg width={"1.5rem"} height={"1.5rem"}>
+      <rect fill="#073B4C" x={0} y={0} width={"1.5rem"} height={"1.5rem"} />
     </svg>
   )
 }
 
 export const MapLegend = () => {
   return (
-    <Stack direction={"column"} spacing={1} marginTop={"1rem"}>
-      <Stack direction={"row"} spacing={3}>
-        <Stack direction={"row"} spacing={1.5}>
+    <Box>
+      <Box
+        marginTop={"1rem"}
+        marginBottom={"0.5rem"}
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          gap: "1rem"
+        }}
+      >
+        <Stack direction={"row"} spacing={1}>
           <APlusLegend />
-          <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
+          <Typography fontSize={"1rem"} color={"#FFFFFF"}>
             A+
           </Typography>
         </Stack>
-        <Stack direction={"row"} spacing={1.5}>
+        <Stack direction={"row"} spacing={1}>
           <AToAPlusLegend />
-          <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
+          <Typography fontSize={"1rem"} color={"#FFFFFF"}>
             A to be A+
           </Typography>
         </Stack>
-        <Stack direction={"row"} spacing={1.5}>
+        <Stack direction={"row"} spacing={1}>
           <ALegend />
-          <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
+          <Typography fontSize={"1rem"} color={"#FFFFFF"}>
             A
           </Typography>
         </Stack>
-        <Stack direction={"row"} spacing={1.5}>
+        <Stack direction={"row"} spacing={1}>
           <BToALegend />
-          <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
+          <Typography fontSize={"1rem"} color={"#FFFFFF"}>
             B to be A
           </Typography>
         </Stack>
-        <Stack direction={"row"} spacing={1.5}>
+        <Stack direction={"row"} spacing={1}>
           <BLegend />
-          <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
+          <Typography fontSize={"1rem"} color={"#FFFFFF"}>
             B
           </Typography>
         </Stack>
-        <Stack direction={"row"} spacing={1.5}>
+        <Stack direction={"row"} spacing={1}>
           <CLegend />
-          <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
+          <Typography fontSize={"1rem"} color={"#FFFFFF"}>
             C
           </Typography>
         </Stack>
-        <Stack direction={"row"} spacing={1.5}>
+        <Stack direction={"row"} spacing={1}>
           <CHNTWNLegend />
-          <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
+          <Typography fontSize={"1rem"} color={"#FFFFFF"}>
             China and Taiwan
           </Typography>
         </Stack>
-      </Stack>
-      <Typography fontSize={"1.2rem"} color={"#FFFFFF"}>
+      </Box>
+      <Typography fontSize={"0.8rem"} color={"#FFFFFF"}>
         Scroll to zoom. Drag to pan.
       </Typography>
-    </Stack>
+    </Box>
   )
 }
