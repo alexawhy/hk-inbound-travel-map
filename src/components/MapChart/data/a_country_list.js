@@ -104,13 +104,13 @@ export const aCountriesList = [
 ]
 
 export const toBeACountriesList = [
-  "the Dominican Republic",
-  "Kosovo",
-  "Malta",
-  "Brunei Darussalam",
-  "Paraguay",
-  "Myanmar",
-  "Belarus",
-  "Curaçao",
-  "Vietnam",
+  { countryName: "the Dominican Republic", date: "2021/12/30 00:00" },
+  { countryName: "Kosovo", date: "2021/12/30 00:00" },
+  { countryName: "Malta", date: "2021/12/30 00:00" },
+  { countryName: "Brunei Darussalam", date: "2021/12/31 00:00" },
+  { countryName: "Paraguay", date: "2021/12/31 00:00" },
+  { countryName: "Myanmar", date: "2022/01/01 00:00" },
+  { countryName: "Belarus", date: "2022/01/02 00:00" },
+  { countryName: "Curaçao", date: "2022/01/02 00:00" },
+  { countryName: "Vietnam", date: "2022/01/02 00:00" },
 ]

@@ -16,5 +16,5 @@ export const aPlusCountriesList = [
 ]
 
 export const toBeAPlusCountriesList = [
-  "Kazakhstan"
+  { countryName: "Kazakhstan", date: "2022/01/01 00:00" },
 ]

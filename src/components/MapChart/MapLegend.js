@@ -11,18 +11,24 @@ const APlusLegend = () => {
   )
 }
 
+export const AToAPlusPatternLines = () => {
+  return (
+    <PatternLines // A to A+
+      id="to-be-a-plus-lines"
+      height={6}
+      width={6}
+      stroke="#EF476F"
+      strokeWidth={2}
+      background="#FFD166"
+      orientation={["diagonal"]}
+    />
+  )
+}
+
 const AToAPlusLegend = () => {
   return (
     <svg width={"2rem"} height={"2rem"}>
-      <PatternLines // A to A+
-        id="to-be-a-plus-lines"
-        height={6}
-        width={6}
-        stroke="#EF476F"
-        strokeWidth={1}
-        background="#FFD166"
-        orientation={["diagonal"]}
-      />
+      <AToAPlusPatternLines />
       <rect
         fill="url('#to-be-a-plus-lines')"
         x={0}
@@ -42,18 +48,24 @@ const ALegend = () => {
   )
 }
 
+export const BToAPatternLines = () => {
+  return (
+    <PatternLines // B to A
+      id="to-be-a-lines"
+      height={6}
+      width={6}
+      stroke="#06D6A0"
+      strokeWidth={2}
+      background="#FFD166"
+      orientation={["diagonal"]}
+    />
+  )
+}
+
 const BToALegend = () => {
   return (
     <svg width={"2rem"} height={"2rem"}>
-      <PatternLines // B to A
-        id="to-be-a-lines"
-        height={6}
-        width={6}
-        stroke="#06D6A0"
-        strokeWidth={1}
-        background="#FFD166"
-        orientation={["diagonal"]}
-      />
+      <BToAPatternLines />
       <rect
         fill="url('#to-be-a-lines')"
         x={0}
@@ -91,49 +103,54 @@ const CHNTWNLegend = () => {
 
 export const MapLegend = () => {
   return (
-    <Stack direction={"row"} spacing={3}>
-      <Stack direction={"row"} spacing={1.5}>
-        <APlusLegend />
-        <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
-          A+
-        </Typography>
+    <Stack direction={"column"} spacing={1} marginTop={"1rem"}>
+      <Stack direction={"row"} spacing={3}>
+        <Stack direction={"row"} spacing={1.5}>
+          <APlusLegend />
+          <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
+            A+
+          </Typography>
+        </Stack>
+        <Stack direction={"row"} spacing={1.5}>
+          <AToAPlusLegend />
+          <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
+            A to be A+
+          </Typography>
+        </Stack>
+        <Stack direction={"row"} spacing={1.5}>
+          <ALegend />
+          <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
+            A
+          </Typography>
+        </Stack>
+        <Stack direction={"row"} spacing={1.5}>
+          <BToALegend />
+          <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
+            B to be A
+          </Typography>
+        </Stack>
+        <Stack direction={"row"} spacing={1.5}>
+          <BLegend />
+          <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
+            B
+          </Typography>
+        </Stack>
+        <Stack direction={"row"} spacing={1.5}>
+          <CLegend />
+          <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
+            C
+          </Typography>
+        </Stack>
+        <Stack direction={"row"} spacing={1.5}>
+          <CHNTWNLegend />
+          <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
+            China and Taiwan
+          </Typography>
+        </Stack>
       </Stack>
-      <Stack direction={"row"} spacing={1.5}>
-        <AToAPlusLegend />
-        <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
-          A to be A+
-        </Typography>
-      </Stack>
-      <Stack direction={"row"} spacing={1.5}>
-        <ALegend />
-        <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
-          A
-        </Typography>
-      </Stack>
-      <Stack direction={"row"} spacing={1.5}>
-        <BToALegend />
-        <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
-          B to be A
-        </Typography>
-      </Stack>
-      <Stack direction={"row"} spacing={1.5}>
-        <BLegend />
-        <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
-          B
-        </Typography>
-      </Stack>
-      <Stack direction={"row"} spacing={1.5}>
-        <CLegend />
-        <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
-          C
-        </Typography>
-      </Stack>
-      <Stack direction={"row"} spacing={1.5}>
-        <CHNTWNLegend />
-        <Typography fontSize={"1.5rem"} color={"#FFFFFF"}>
-          China and Taiwan
-        </Typography>
-      </Stack>
+      <Typography fontSize={"1.2rem"} color={"#FFFFFF"}>
+        Scroll to zoom. Drag to pan.
+      </Typography>
     </Stack>
   )
 }
