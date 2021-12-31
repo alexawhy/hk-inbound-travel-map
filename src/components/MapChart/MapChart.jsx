@@ -49,7 +49,7 @@ const cCountryCodes = []
 
 const MapChart = ({ setTooltipContent }) => {
   return (
-    <ComposableMap data-tip="" projection="geoEqualEarth" width={800}>
+    <ComposableMap data-tip="" projection="geoEqualEarth" width={1000}>
       <ZoomableGroup>
         <AToAPlusPatternLines // A to A+
           id="to-be-a-plus-lines"
