@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hk-inbound-travel-map/static/css/main.050fab28.css",
+    "main.js": "/hk-inbound-travel-map/static/js/main.93e22a61.js",
+    "static/js/787.f408e5ab.chunk.js": "/hk-inbound-travel-map/static/js/787.f408e5ab.chunk.js",
+    "index.html": "/hk-inbound-travel-map/index.html",
+    "main.050fab28.css.map": "/hk-inbound-travel-map/static/css/main.050fab28.css.map",
+    "main.93e22a61.js.map": "/hk-inbound-travel-map/static/js/main.93e22a61.js.map",
+    "787.f408e5ab.chunk.js.map": "/hk-inbound-travel-map/static/js/787.f408e5ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.050fab28.css",
+    "static/js/main.93e22a61.js"
+  ]
+}
