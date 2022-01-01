@@ -15,11 +15,14 @@ function App() {
           Hong Kong Inbound Travel Restrictions Map
         </Typography>
         <Typography fontSize={"1rem"}>
-          Updated at 2021/12/31 12:00 GMT+8
+          Updated at 2021/12/02 7:00 GMT+8
         </Typography>
         <Typography fontSize={"1rem"} marginBottom={"1rem"}>
           All data based on the{" "}
-          <a href="https://www.coronavirus.gov.hk/eng/inbound-travel.html" target="_blank">
+          <a
+            href="https://www.coronavirus.gov.hk/eng/inbound-travel.html"
+            target="_blank"
+          >
             official website
           </a>
           .

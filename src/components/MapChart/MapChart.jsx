@@ -4,6 +4,7 @@ import {
   ZoomableGroup,
   Geographies,
   Geography,
+  Marker,
 } from "react-simple-maps"
 import {
   aPlusCountriesList,
@@ -11,7 +12,12 @@ import {
 } from "./data/a_plus_country_list"
 import { aCountriesList, toBeACountriesList } from "./data/a_country_list"
 import { countryToISOMapping } from "./data/country_to_ISO_mapping"
-import { AToAPlusPatternLines, BToAPatternLines } from "./MapLegend"
+import {
+  AToAPlusPatternLines,
+  BannedFlight,
+  BToAPatternLines,
+} from "./MapLegend"
+import { bannedFlights } from "./data/banned_flights"
 
 const geoUrl =
   "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json"
@@ -135,6 +141,20 @@ const MapChart = ({ setTooltipContent }) => {
             })
           }
         </Geographies>
+        {bannedFlights.map(({ name, coordinates, flightAndDate }) => (
+          <Marker
+            key={name}
+            coordinates={coordinates}
+            onMouseEnter={() => {
+              setTooltipContent(`${name} | ${flightAndDate}`)
+            }}
+            onMouseLeave={() => {
+              setTooltipContent("")
+            }}
+          >
+            <BannedFlight />
+          </Marker>
+        ))}
       </ZoomableGroup>
     </ComposableMap>
   )

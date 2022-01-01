@@ -3,6 +3,7 @@ export const aPlusCountriesList = [
   "Botswana",
   "Eswatini",
   "Ethiopia",
+  "Kazakhstan",
   "Lesotho",
   "Malawi",
   "Mozambique",
@@ -15,6 +16,8 @@ export const aPlusCountriesList = [
   "Zimbabwe",
 ]
 
-export const toBeAPlusCountriesList = [
-  { countryName: "Kazakhstan", date: "2022/01/01 00:00" },
-]
+export const toBeAPlusCountriesList = []
+
+// const toBeAPlusCountriesList = [
+//   { countryName: "Kazakhstan", date: "2022/01/01 00:00" },
+// ]
