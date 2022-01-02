@@ -35,7 +35,6 @@ const toBeAPlusCountryCodesAndDates = toBeAPlusCountriesList.reduce(
   },
   {}
 )
-
 const aCountryCodes = aCountriesList.map(
   (country) => countryToISOMapping[country]
 )
@@ -49,7 +48,6 @@ const toBeACountryCodesAndDates = toBeACountriesList.reduce(
   },
   {}
 )
-console.log(toBeACountryCodesAndDates)
 const chinaTaiwanCountryCodes = ["CHN", "TWN"]
 const cCountryCodes = []
 
