@@ -1,10 +1,5 @@
 export const bannedFlights = [
   {
-    name: "New York",
-    coordinates: [-74.006, 40.7128],
-    flightAndDate: "CX845: 2021/12/20-2022/01/02",
-  },
-  {
     name: "Doha",
     coordinates: [51.531, 25.2854],
     flightAndDate: "QR818: 2021/12/22-2022/01/04",
@@ -53,5 +48,15 @@ export const bannedFlights = [
     name: "Manila",
     coordinates: [120.9842, 14.5995],
     flightAndDate: "5J272: 2021/12/30-2022/01/12",
+  },
+  {
+    name: "Amsterdam",
+    coordinates: [4.9041, 52.3676],
+    flightAndDate: "KL819: 2022/01/02-2022/01/15",
+  },
+  {
+    name: "Manchester",
+    coordinates: [-2.2426, 53.4808],
+    flightAndDate: "CX216: 2022/01/02-2022/01/15",
   },
 ]
