@@ -47,7 +47,12 @@ export const bannedFlights = [
   {
     name: "Manila",
     coordinates: [120.9842, 14.5995],
-    flightAndDate: "5J272: 2021/12/30-2022/01/12",
+    flightAndDate: "5J272: 2021/12/30-2022/01/12 | PR300: 2022/12/31-2022/01/13",
+  },
+  {
+    name: "San Francisco",
+    coordinates: [-122.4194, 37.7749],
+    flightAndDate: "CX873: 2022/12/31-2022/01/13",
   },
   {
     name: "Amsterdam",
