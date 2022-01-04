@@ -1,13 +1,15 @@
 import "./App.css"
 import React, { useState } from "react"
-import { Typography, Stack, Box, AppBar } from "@mui/material"
+import { Typography, Stack, Box } from "@mui/material"
 import MapChart from "./components/MapChart/MapChart"
 import { MapLegend } from "../src/components/MapChart/MapLegend"
 import ReactTooltip from "react-tooltip"
 import { GitHub } from "@mui/icons-material"
+import { Link } from "./components/link/Link"
 
 function App() {
-  const [content, setContent] = useState("")
+  const [tooltipContent, setTooltipContent] = useState("")
+  const [externalLinks, setExternalLinks] = useState([])
   return (
     <Box className="App">
       <header className="App-header">
@@ -15,7 +17,7 @@ function App() {
           Hong Kong Inbound Travel Restrictions Map
         </Typography>
         <Typography fontSize={"1rem"}>
-          Updated at 2021/12/04 16:30 GMT+8
+          Updated at 2021/12/05 05:30 GMT+8
         </Typography>
         <Typography fontSize={"1rem"} marginBottom={"1rem"}>
           All data based on the{" "}
@@ -29,9 +31,20 @@ function App() {
         </Typography>
         <MapLegend />
       </header>
-      <div style={{ cursor: "pointer", marginTop: "1.5rem" }}>
-        <ReactTooltip>{content}</ReactTooltip>
-        <MapChart setTooltipContent={setContent} />
+      <div
+        style={{
+          cursor: "pointer",
+          marginTop: "1.5rem",
+          marginBottom: "1.5rem",
+        }}
+      >
+        <ReactTooltip>{tooltipContent}</ReactTooltip>
+        <MapChart
+          setTooltipContent={setTooltipContent}
+          setExternalLinks={setExternalLinks}
+          externalLinks={externalLinks}
+        />
+        <Link externalLinks={externalLinks} />
       </div>
       <Stack className="footer">
         <a href="https://github.com/alexawhy">

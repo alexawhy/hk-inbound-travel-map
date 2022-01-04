@@ -111,8 +111,8 @@ export const BannedFlight = () => {
         viewBox="0 0 10 10"
         overflow="visible"
         stroke="white"
-        stroke-width="4"
-        stroke-linecap="round"
+        strokeWidth="4"
+        strokeLinecap="round"
       >
         <line x1="-5" y1="-5" x2="5" y2="5" />
         <line x1="5" y1="-5" x2="-5" y2="5" />
@@ -124,8 +124,8 @@ export const BannedFlight = () => {
         viewBox="0 0 10 10"
         overflow="visible"
         stroke="black"
-        stroke-width="2"
-        stroke-linecap="round"
+        strokeWidth="2"
+        strokeLinecap="round"
       >
         <line x1="-5" y1="-5" x2="5" y2="5" />
         <line x1="5" y1="-5" x2="-5" y2="5" />
@@ -204,7 +204,7 @@ export const MapLegend = () => {
         </Stack>
       </Box>
       <Typography fontSize={"0.8rem"} color={"#FFFFFF"}>
-        Scroll to zoom. Drag to pan.
+        Click to see source. Scroll to zoom. Drag to pan.
       </Typography>
     </Box>
   )

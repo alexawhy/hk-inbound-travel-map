@@ -51,7 +51,7 @@ const toBeACountryCodesAndDates = toBeACountriesList.reduce(
 const chinaTaiwanCountryCodes = ["CHN", "TWN"]
 const cCountryCodes = []
 
-const MapChart = ({ setTooltipContent }) => {
+const MapChart = ({ setTooltipContent, setExternalLinks, externalLinks }) => {
   return (
     <ComposableMap data-tip="" projection="geoEqualEarth" width={1000}>
       <ZoomableGroup>
@@ -139,7 +139,7 @@ const MapChart = ({ setTooltipContent }) => {
             })
           }
         </Geographies>
-        {bannedFlights.map(({ name, coordinates, flightAndDate }) => (
+        {bannedFlights.map(({ name, coordinates, flightAndDate, links }) => (
           <Marker
             key={name}
             coordinates={coordinates}
@@ -148,6 +148,9 @@ const MapChart = ({ setTooltipContent }) => {
             }}
             onMouseLeave={() => {
               setTooltipContent("")
+            }}
+            onClick={() => {
+              setExternalLinks(links)
             }}
           >
             <BannedFlight />
