@@ -15,7 +15,7 @@ function App() {
           Hong Kong Inbound Travel Restrictions Map
         </Typography>
         <Typography fontSize={"1rem"}>
-          Updated at 2021/12/03 02:45 GMT+8
+          Updated at 2021/12/04 08:30 GMT+8
         </Typography>
         <Typography fontSize={"1rem"} marginBottom={"1rem"}>
           All data based on the{" "}
