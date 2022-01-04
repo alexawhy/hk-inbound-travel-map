@@ -1,10 +1,5 @@
 export const bannedFlights = [
   {
-    name: "Doha",
-    coordinates: [51.531, 25.2854],
-    flightAndDate: "QR818: 2021/12/22-2022/01/04",
-  },
-  {
     name: "Dubai",
     coordinates: [55.2708, 25.2048],
     flightAndDate: "EK384: 2021/12/25-2022/01/07",
@@ -12,12 +7,14 @@ export const bannedFlights = [
   {
     name: "Bangkok",
     coordinates: [100.5018, 13.7563],
-    flightAndDate: "EK384: 2021/12/25-2022/01/07",
+    flightAndDate:
+      "EK384: 2021/12/25-2022/01/07 | TG600: 2022/01/04-2022/01/17",
   },
   {
     name: "Seoul",
     coordinates: [126.978, 37.5665],
-    flightAndDate: "KE607: 2021/12/26-2022/01/08",
+    flightAndDate:
+      "KE607: 2021/12/26-2022/01/08 | CX419: 2022/01/04-2022/01/17",
   },
   {
     name: "London",
@@ -48,7 +45,7 @@ export const bannedFlights = [
     name: "Manila",
     coordinates: [120.9842, 14.5995],
     flightAndDate:
-      "5J272: 2021/12/30-2022/01/12 | PR300: 2021/12/31-2022/01/13 | CX906: 2022/01/03-2022/01/16",
+      "5J272: 2021/12/30-2022/01/12 | PR300: 2021/12/31-2022/01/13 | CX906: 2022/01/03-2022/01/16 | Z21264: 2022/01/04-2022/01/17",
   },
   {
     name: "San Francisco",
@@ -64,5 +61,15 @@ export const bannedFlights = [
     name: "Manchester",
     coordinates: [-2.2426, 53.4808],
     flightAndDate: "CX216: 2022/01/02-2022/01/15",
+  },
+  {
+    name: "Delhi",
+    coordinates: [77.1025, 28.7041],
+    flightAndDate: "AI1314: 2022/01/04-2022/01/17",
+  },
+  {
+    name: "Vancouver",
+    coordinates: [-123.1207, 49.2827],
+    flightAndDate: "AC007: 2022/01/04-2022/01/17",
   },
 ]
