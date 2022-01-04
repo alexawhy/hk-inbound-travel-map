@@ -1,7 +1,7 @@
 ## Introduction
 An interactive map of Hong Kong inbound travel restrictions. All data based on the [HKSAR official website](https://www.coronavirus.gov.hk/eng/inbound-travel.html).
 
-##Live link
+## Live link
 https://alexandria-wong.com/hk-inbound-travel-map/
 
 ## Terms and Conditions
