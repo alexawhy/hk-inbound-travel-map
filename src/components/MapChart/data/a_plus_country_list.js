@@ -10,8 +10,6 @@ export const aPlusCountriesList = [
   "Namibia",
   "Nigeria",
   "South Africa",
-  "the United Kingdom",
-  "the United States of America",
   "Zambia",
   "Zimbabwe",
 ]
@@ -21,3 +19,14 @@ export const toBeAPlusCountriesList = []
 // const toBeAPlusCountriesList = [
 //   { countryName: "Kazakhstan", date: "2022/01/01 00:00" },
 // ]
+
+export const bannedCountriesList = [
+  "Australia",
+  "Canada",
+  "France",
+  "India",
+  "Pakistan",
+  "the Philippines",
+  "the United Kingdom",
+  "the United States of America",
+]

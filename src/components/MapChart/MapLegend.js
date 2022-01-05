@@ -3,6 +3,35 @@ import { PatternLines } from "@vx/pattern"
 import { Box, Typography } from "@mui/material"
 import { Stack } from "@mui/material"
 
+export const BannedPatternLines = () => {
+  return (
+    <PatternLines // A to A+
+      id="banned-lines"
+      height={6}
+      width={6}
+      stroke="#000000"
+      strokeWidth={3.5}
+      background="#EF476F"
+      orientation={["diagonal"]}
+    />
+  )
+}
+const BannedLegend = () => {
+  return (
+    <svg width={"1.5rem"} height={"1.5rem"}>
+      <BannedPatternLines />
+      <rect
+        fill="url('#banned-lines')"
+        x={0}
+        y={0}
+        width={"1.5rem"}
+        height={"1.5rem"}
+      />
+    </svg>
+  )
+}
+
+
 const APlusLegend = () => {
   return (
     <svg width={"1.5rem"} height={"1.5rem"}>
@@ -154,6 +183,12 @@ export const MapLegend = () => {
           gap: "1rem",
         }}
       >
+        <Stack direction={"row"} spacing={1}>
+          <BannedLegend />
+          <Typography fontSize={"1rem"} color={"#FFFFFF"}>
+            Flights and passengers ban
+          </Typography>
+        </Stack>
         <Stack direction={"row"} spacing={1}>
           <APlusLegend />
           <Typography fontSize={"1rem"} color={"#FFFFFF"}>

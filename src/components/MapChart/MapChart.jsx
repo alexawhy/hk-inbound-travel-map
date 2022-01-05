@@ -8,6 +8,7 @@ import {
 } from "react-simple-maps"
 import {
   aPlusCountriesList,
+  bannedCountriesList,
   toBeAPlusCountriesList,
 } from "./data/a_plus_country_list"
 import { aCountriesList, toBeACountriesList } from "./data/a_country_list"
@@ -21,6 +22,10 @@ import { bannedFlights } from "./data/banned_flights"
 
 const geoUrl =
   "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json"
+
+const bannedCountryCodes = bannedCountriesList.map(
+  (country) => countryToISOMapping[country]
+)
 
 const aPlusCountryCodes = aPlusCountriesList.map(
   (country) => countryToISOMapping[country]
@@ -77,6 +82,7 @@ const MapChart = ({ setTooltipContent, setExternalLinks, externalLinks }) => {
           {({ geographies }) =>
             geographies.map((geo) => {
               const iso = geo.properties.ISO_A3
+              const isBannedCountry = bannedCountryCodes.indexOf(iso) !== -1
               const isAPlusCountry = aPlusCountryCodes.indexOf(iso) !== -1
               const isToBeAPlusCountry =
                 toBeAPlusCountryCodesAndDates[iso] !== undefined
@@ -87,7 +93,9 @@ const MapChart = ({ setTooltipContent, setExternalLinks, externalLinks }) => {
                 chinaTaiwanCountryCodes.indexOf(iso) !== -1
               const isCCountry = cCountryCodes.indexOf(iso) !== -1
 
-              const countryClass = isAPlusCountry
+              const countryClass = isBannedCountry
+                ? "Flights and passengers banned 2022/01/08-2022/01/23"
+                : isAPlusCountry
                 ? "A+"
                 : isToBeAPlusCountry
                 ? "A to be A+"
@@ -105,6 +113,7 @@ const MapChart = ({ setTooltipContent, setExternalLinks, externalLinks }) => {
                   key={geo.rsmKey}
                   geography={geo}
                   fill={
+                    isBannedCountry ? "url('#banned-lines')":
                     isAPlusCountry
                       ? "#EF476F" // A+
                       : isToBeAPlusCountry

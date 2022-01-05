@@ -75,14 +75,18 @@ export const bannedFlights = [
     name: "Toronto",
     coordinates: [-79.6532, 43.6532],
     flightAndDate:
-      "CX829: 2021/12/29-2022/01/11 | AC015: 2022/01/04-2022/01/17 (TBC)",
+      "CX829: 2021/12/29-2022/01/11 | AC015: 2022/01/05-2022/01/18",
     links: [
       {
         flight: "CX829",
         link: "https://www.info.gov.hk/gia/general/202112/29/P2021122900503.htm",
         isPressRelease: true,
       },
-      { flight: "AC015", link: "https://www.chp.gov.hk/files/pdf/flights_trains_en.pdf", isPressRelease: false },
+      {
+        flight: "AC015",
+        link: "https://www.info.gov.hk/gia/general/202201/05/P2022010500745.htm",
+        isPressRelease: true,
+      },
     ],
   },
   {
@@ -193,6 +197,30 @@ export const bannedFlights = [
       {
         flight: "AC007",
         link: "https://www.info.gov.hk/gia/general/202201/04/P2022010400590.htm",
+        isPressRelease: true,
+      },
+    ],
+  },
+  {
+    name: "Frankfurt",
+    coordinates: [8.6821, 50.1109],
+    flightAndDate: "LH796: 2022/01/05-2022/01/18",
+    links: [
+      {
+        flight: "LH796",
+        link: "https://www.info.gov.hk/gia/general/202201/05/P2022010500745.htm",
+        isPressRelease: true,
+      },
+    ],
+  },
+  {
+    name: "New York",
+    coordinates: [-74.006, 40.7128],
+    flightAndDate: "CX845: 2022/01/05-2022/01/18",
+    links: [
+      {
+        flight: "CX845",
+        link: "https://www.info.gov.hk/gia/general/202201/05/P2022010500745.htm",
         isPressRelease: true,
       },
     ],
