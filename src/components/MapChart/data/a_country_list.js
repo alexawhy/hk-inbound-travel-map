@@ -13,8 +13,10 @@ export const aCountriesList = [
   "Bosnia and Herzegovina",
   "Brazil",
   "Brunei Darussalam",
+  "Bulgaria",
   "Burkina Faso",
   "Cambodia",
+  "Cape Verde",
   "Cayman Islands",
   "Chile",
   "Colombia",
@@ -63,6 +65,7 @@ export const aCountriesList = [
   "Malaysia",
   "Maldives",
   "Malta",
+  "Martinique",
   "Mauritius",
   "Mexico",
   "Montenegro",
@@ -71,6 +74,7 @@ export const aCountriesList = [
   "Nepal",
   "the Netherlands",
   "New Zealand",
+  "Niger",
   "North Macedonia",
   "Norway",
   "Oman",
@@ -93,6 +97,7 @@ export const aCountriesList = [
   "Singapore",
   "the Slovak Republic",
   "Slovenia",
+  "South Sudan",
   "Spain",
   "Sri Lanka",
   "St Kitts and Nevis",
@@ -114,9 +119,8 @@ export const aCountriesList = [
 ]
 
 export const toBeACountriesList = [
-  { countryName: "Bulgaria", date: "2022/01/06 00:00" },
-  { countryName: "Martinique", date: "2022/01/07 00:00" },
-  { countryName: "Cape Verde", date: "2022/01/08 00:00" },
-  { countryName: "Niger", date: "2022/01/08 00:00" },
-  { countryName: "South Sudan", date: "2022/01/08 00:00" },
+  { countryName: "Grenada", date: "2022/01/09 00:00" },
+  { countryName: "Mauritania", date: "2022/01/09 00:00" },
+  { countryName: "Mayotte", date: "2022/01/09 00:00" },
+  { countryName: "Iraq", date: "2022/01/10 00:00" },
 ]

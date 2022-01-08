@@ -1,27 +1,28 @@
 export const bannedFlights = [
-  {
-    name: "Dubai",
-    coordinates: [55.2708, 25.2048],
-    flightAndDate: "EK384: 2021/12/25-2022/01/07",
-    links: [
-      {
-        flight: "EK384",
-        link: "https://www.info.gov.hk/gia/general/202112/25/P2021122500530.htm",
-        isPressRelease: true,
-      },
-    ],
-  },
+  // {
+  //   name: "Dubai",
+  //   coordinates: [55.2708, 25.2048],
+  //   flightAndDate: "EK384: 2021/12/25-2022/01/07",
+  //   links: [
+  //     {
+  //       flight: "EK384",
+  //       link: "https://www.info.gov.hk/gia/general/202112/25/P2021122500530.htm",
+  //       isPressRelease: true,
+  //     },
+  //   ],
+  // },
   {
     name: "Bangkok",
     coordinates: [100.5018, 13.7563],
     flightAndDate:
-      "EK384: 2021/12/25-2022/01/07 | TG600: 2022/01/04-2022/01/17",
+      // "EK384: 2021/12/25-2022/01/07 | TG600: 2022/01/04-2022/01/17",
+      "TG600: 2022/01/04-2022/01/17",
     links: [
-      {
-        flight: "EK384",
-        link: "https://www.info.gov.hk/gia/general/202112/25/P2021122500530.htm",
-        isPressRelease: true,
-      },
+      // {
+      //   flight: "EK384",
+      //   link: "https://www.info.gov.hk/gia/general/202112/25/P2021122500530.htm",
+      //   isPressRelease: true,
+      // },
       {
         flight: "TG600",
         link: "https://www.info.gov.hk/gia/general/202201/04/P2022010400590.htm",
@@ -221,6 +222,43 @@ export const bannedFlights = [
       {
         flight: "CX845",
         link: "https://www.info.gov.hk/gia/general/202201/05/P2022010500745.htm",
+        isPressRelease: true,
+      },
+    ],
+  },
+  {
+    name: "Kathmandu",
+    coordinates: [85.324, 27.7172],
+    flightAndDate: "RA409: 2022/01/06-2022/01/19",
+    links: [
+      {
+        flight: "RA409",
+        link: "https://www.info.gov.hk/gia/general/202201/06/P2022010600765.htm",
+        isPressRelease: true,
+      },
+    ],
+  },
+  {
+    name: "Cebu",
+    coordinates: [123.8854, 10.3157],
+    flightAndDate: "CX922: 2022/01/06-2022/01/19",
+    links: [
+      {
+        flight: "CX922",
+        link: "https://www.info.gov.hk/gia/general/202201/06/P2022010600765.htm",
+        isPressRelease: true,
+      },
+    ],
+  },
+
+  {
+    name: "Doha",
+    coordinates: [51.531, 25.2854],
+    flightAndDate: "QR818: 2022/01/07-2022/01/20",
+    links: [
+      {
+        flight: "QR818",
+        link: "https://www.info.gov.hk/gia/general/202201/07/P2022010700736.htm",
         isPressRelease: true,
       },
     ],
