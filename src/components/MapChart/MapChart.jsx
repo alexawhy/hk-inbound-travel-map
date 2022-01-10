@@ -21,7 +21,7 @@ import {
 import { bannedFlights } from "./data/banned_flights"
 
 const geoUrl =
-  "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json"
+  "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-50m.json"
 
 const bannedCountryCodes = bannedCountriesList.map(
   (country) => countryToISOMapping[country]

@@ -34,13 +34,8 @@ export const bannedFlights = [
     name: "Seoul",
     coordinates: [126.978, 37.5665],
     flightAndDate:
-      "KE607: 2021/12/26-2022/01/08 | CX419: 2022/01/04-2022/01/17",
+      "CX419: 2022/01/04-2022/01/17",
     links: [
-      {
-        flight: "KE607",
-        link: "https://www.info.gov.hk/gia/general/202112/25/P2021122500530.htm",
-        isPressRelease: true,
-      },
       {
         flight: "CX419",
         link: "https://www.info.gov.hk/gia/general/202201/04/P2022010400590.htm",
@@ -48,18 +43,18 @@ export const bannedFlights = [
       },
     ],
   },
-  {
-    name: "London",
-    coordinates: [0.1276, 51.5072],
-    flightAndDate: "CX252: 2021/12/26-2022/01/08",
-    links: [
-      {
-        flight: "CX252",
-        link: "https://www.info.gov.hk/gia/general/202112/25/P2021122500530.htm",
-        isPressRelease: true,
-      },
-    ],
-  },
+  // {
+  //   name: "London",
+  //   coordinates: [0.1276, 51.5072],
+  //   flightAndDate: "CX252: 2021/12/26-2022/01/08",
+  //   links: [
+  //     {
+  //       flight: "CX252",
+  //       link: "https://www.info.gov.hk/gia/general/202112/25/P2021122500530.htm",
+  //       isPressRelease: true,
+  //     },
+  //   ],
+  // },
   {
     name: "Los Angeles",
     coordinates: [-118.2437, 34.0522],
@@ -145,11 +140,17 @@ export const bannedFlights = [
   {
     name: "San Francisco",
     coordinates: [-122.4194, 37.7749],
-    flightAndDate: "CX873: 2022/12/31-2022/01/13",
+    flightAndDate:
+      "CX873: 2022/12/31-2022/01/13 | SQ007: 2022/01/09-2022/01/22",
     links: [
       {
         flight: "CX873",
         link: "https://www.info.gov.hk/gia/general/202112/31/P2021123100680.htm",
+        isPressRelease: true,
+      },
+      {
+        flight: "SQ007",
+        link: "https://www.info.gov.hk/gia/general/202201/09/P2022010900644.htm",
         isPressRelease: true,
       },
     ],
@@ -250,7 +251,6 @@ export const bannedFlights = [
       },
     ],
   },
-
   {
     name: "Doha",
     coordinates: [51.531, 25.2854],
@@ -259,6 +259,18 @@ export const bannedFlights = [
       {
         flight: "QR818",
         link: "https://www.info.gov.hk/gia/general/202201/07/P2022010700736.htm",
+        isPressRelease: true,
+      },
+    ],
+  },
+  {
+    name: "Tokyo",
+    coordinates: [139.6503, 35.6762],
+    flightAndDate: "NH811: 2022/01/07-2022/01/20",
+    links: [
+      {
+        flight: "NH811",
+        link: "https://www.info.gov.hk/gia/general/202201/09/P2022010900644.htm",
         isPressRelease: true,
       },
     ],
