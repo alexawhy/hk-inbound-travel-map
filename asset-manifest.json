@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hk-inbound-travel-map/static/css/main.7e9a9a6b.css",
-    "main.js": "/hk-inbound-travel-map/static/js/main.133bfd6a.js",
+    "main.js": "/hk-inbound-travel-map/static/js/main.c50b8810.js",
     "static/js/787.f408e5ab.chunk.js": "/hk-inbound-travel-map/static/js/787.f408e5ab.chunk.js",
     "index.html": "/hk-inbound-travel-map/index.html",
     "main.7e9a9a6b.css.map": "/hk-inbound-travel-map/static/css/main.7e9a9a6b.css.map",
-    "main.133bfd6a.js.map": "/hk-inbound-travel-map/static/js/main.133bfd6a.js.map",
+    "main.c50b8810.js.map": "/hk-inbound-travel-map/static/js/main.c50b8810.js.map",
     "787.f408e5ab.chunk.js.map": "/hk-inbound-travel-map/static/js/787.f408e5ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e9a9a6b.css",
-    "static/js/main.133bfd6a.js"
+    "static/js/main.c50b8810.js"
   ]
 }
