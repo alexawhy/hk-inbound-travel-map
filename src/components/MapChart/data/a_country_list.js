@@ -131,4 +131,6 @@ export const aCountriesList = [
 
 export const toBeACountriesList = [
   { countryName: "Solomon Islands", date: "2022/01/12 00:00" },
+  { countryName: "Uzbekistan", date: "2022/01/13 00:00" },
+  { countryName: "Azerbaijan", date: "2022/01/14 00:00" },
 ]
