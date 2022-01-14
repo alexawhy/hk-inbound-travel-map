@@ -25,7 +25,7 @@ export const countryToISOMapping = {
   "Bermuda": "BMU",
   "Bhutan": "BTN",
   "Bolivia": "BOL",
-  "Bonaire, Sint Eustatius and Saba": "BES",
+  "Bonaire": "BES",
   "Bosnia and Herzegovina": "BIH",
   "Botswana": "BWA",
   "Bouvet Island": "BVT",

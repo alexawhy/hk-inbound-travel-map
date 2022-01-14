@@ -94,7 +94,7 @@ const MapChart = ({ setTooltipContent, setExternalLinks, externalLinks }) => {
               const isCCountry = cCountryCodes.indexOf(iso) !== -1
 
               const countryClass = isBannedCountry
-                ? "Flights and passengers banned 2022/01/08-2022/01/23"
+                ? "Flights and passengers banned 2022/01/08-2022/02/04"
                 : isAPlusCountry
                 ? "A+"
                 : isToBeAPlusCountry

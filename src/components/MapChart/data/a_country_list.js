@@ -5,6 +5,7 @@ export const aCountriesList = [
   "Argentina",
   "Aruba",
   "Austria",
+  "Azerbaijan",
   "Bahrain",
   "Bangladesh",
   "Barbados",
@@ -132,5 +133,9 @@ export const aCountriesList = [
 ]
 
 export const toBeACountriesList = [
-  { countryName: "Azerbaijan", date: "2022/01/14 00:00" },
+  { countryName: "Kyrgyzstan", date: "2022/01/16 00:00" },
+  { countryName: "Armenia", date: "2022/01/17 00:00" },
+  { countryName: "Bonaire", date: "2022/01/17 00:00" },
+  { countryName: "Guatemala", date: "2022/01/17 00:00" },
+  { countryName: "New Caledonia", date: "2022/01/17 00:00" },
 ]
