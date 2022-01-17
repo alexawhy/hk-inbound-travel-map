@@ -3,16 +3,16 @@ export const bannedFlights = [
     name: "Bangkok",
     coordinates: [100.5018, 13.7563],
     flightAndDate:
-      "TG600: 2022/01/04-2022/01/17 | EK384: 2022/01/10-2022/01/23",
+      "EK384: 2022/01/10-2022/01/23 | UO705: 2022/01/16-2022/01/29",
     links: [
-      {
-        flight: "TG600",
-        link: "https://www.info.gov.hk/gia/general/202201/04/P2022010400590.htm",
-        isPressRelease: true,
-      },
       {
         flight: "EK384",
         link: "https://www.info.gov.hk/gia/general/202201/10/P2022011000718.htm",
+        isPressRelease: true,
+      },
+      {
+        flight: "UO705",
+        link: "https://www.info.gov.hk/gia/general/202201/16/P2022011600537.htm",
         isPressRelease: true,
       },
     ],
@@ -56,8 +56,7 @@ export const bannedFlights = [
   {
     name: "Toronto",
     coordinates: [-79.6532, 43.6532],
-    flightAndDate:
-      "AC015: 2022/01/05-2022/01/18",
+    flightAndDate: "AC015: 2022/01/05-2022/01/18",
     links: [
       // {
       //   flight: "CX829",
@@ -126,8 +125,7 @@ export const bannedFlights = [
   {
     name: "San Francisco",
     coordinates: [-122.4194, 37.7749],
-    flightAndDate:
-      "SQ007: 2022/01/09-2022/01/22",
+    flightAndDate: "SQ007: 2022/01/09-2022/01/22",
     links: [
       // {
       //   flight: "CX873",

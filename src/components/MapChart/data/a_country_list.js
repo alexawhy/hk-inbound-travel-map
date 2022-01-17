@@ -138,4 +138,5 @@ export const toBeACountriesList = [
   { countryName: "Bonaire", date: "2022/01/17 00:00" },
   { countryName: "Guatemala", date: "2022/01/17 00:00" },
   { countryName: "New Caledonia", date: "2022/01/17 00:00" },
+  { countryName: "Bhutan", date: "2022/01/19 00:00" },
 ]
