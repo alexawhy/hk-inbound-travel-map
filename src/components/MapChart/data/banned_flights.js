@@ -82,18 +82,18 @@ export const bannedFlights = [
   //     },
   //   ],
   // },
-  // {
-  //   name: "Istanbul",
-  //   coordinates: [28.9784, 41.0082],
-  //   flightAndDate: "TK083: 2021/12/30-2022/01/12",
-  //   links: [
-  //     {
-  //       flight: "TK083",
-  //       link: "https://www.info.gov.hk/gia/general/202112/30/P2021123000612.htm",
-  //       isPressRelease: true,
-  //     },
-  //   ],
-  // },
+  {
+    name: "Istanbul",
+    coordinates: [28.9784, 41.0082],
+    flightAndDate: "TK083: 2022/01/17-2022/01/30",
+    links: [
+      {
+        flight: "TK083",
+        link: "https://www.info.gov.hk/gia/general/202201/17/P2022011700523.htm",
+        isPressRelease: true,
+      },
+    ],
+  },
   {
     name: "Manila",
     coordinates: [120.9842, 14.5995],
