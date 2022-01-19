@@ -70,18 +70,18 @@ export const bannedFlights = [
       },
     ],
   },
-  // {
-  //   name: "Helsinki",
-  //   coordinates: [24.9384, 60.1699],
-  //   flightAndDate: "AY101: 2021/12/30-2022/01/12",
-  //   links: [
-  //     {
-  //       flight: "AY101",
-  //       link: "https://www.info.gov.hk/gia/general/202112/30/P2021123000612.htm",
-  //       isPressRelease: true,
-  //     },
-  //   ],
-  // },
+  {
+    name: "Helsinki",
+    coordinates: [24.9384, 60.1699],
+    flightAndDate: "AY101: 2022/01/18-2022/01/31",
+    links: [
+      {
+        flight: "AY101",
+        link: "https://www.info.gov.hk/gia/general/202201/18/P2022011800582.htm",
+        isPressRelease: true,
+      },
+    ],
+  },
   {
     name: "Istanbul",
     coordinates: [28.9784, 41.0082],

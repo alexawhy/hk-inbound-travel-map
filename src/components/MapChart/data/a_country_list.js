@@ -3,6 +3,7 @@ export const aCountriesList = [
   "Algeria",
   "Antigua and Barbuda",
   "Argentina",
+  "Armenia",
   "Aruba",
   "Austria",
   "Azerbaijan",
@@ -12,7 +13,9 @@ export const aCountriesList = [
   "Belarus",
   "Belgium",
   "Bermuda",
+  "Bhutan",
   "Bolivia",
+  "Bonaire",
   "Bosnia and Herzegovina",
   "Brazil",
   "Brunei Darussalam",
@@ -47,6 +50,7 @@ export const aCountriesList = [
   "Greece",
   "Grenada",
   "Guadeloupe",
+  "Guatemala",
   "Guernsey",
   "Guinea",
   "Hungary",
@@ -64,6 +68,7 @@ export const aCountriesList = [
   "Korea",
   "Kosovo",
   "Kuwait",
+  "Kyrgyzstan",
   "Laos",
   "Latvia",
   "Lebanon",
@@ -85,6 +90,7 @@ export const aCountriesList = [
   "Myanmar",
   "Nepal",
   "the Netherlands",
+  "New Caledonia",
   "New Zealand",
   "Niger",
   "North Macedonia",
@@ -133,10 +139,5 @@ export const aCountriesList = [
 ]
 
 export const toBeACountriesList = [
-  { countryName: "Kyrgyzstan", date: "2022/01/16 00:00" },
-  { countryName: "Armenia", date: "2022/01/17 00:00" },
-  { countryName: "Bonaire", date: "2022/01/17 00:00" },
-  { countryName: "Guatemala", date: "2022/01/17 00:00" },
-  { countryName: "New Caledonia", date: "2022/01/17 00:00" },
-  { countryName: "Bhutan", date: "2022/01/19 00:00" },
+  { countryName: "Honduras", date: "2022/01/19 00:00" },
 ]
