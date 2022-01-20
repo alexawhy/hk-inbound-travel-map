@@ -139,5 +139,7 @@ export const aCountriesList = [
 ]
 
 export const toBeACountriesList = [
-  { countryName: "Honduras", date: "2022/01/19 00:00" },
+  { countryName: "Honduras", date: "2022/01/21 00:00" },
+  { countryName: "Papua New Guinea", date: "2022/01/22 00:00" },
+  { countryName: "Suriname", date: "2022/01/22 00:00" },
 ]
