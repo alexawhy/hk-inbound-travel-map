@@ -3,16 +3,16 @@ export const bannedFlights = [
     name: "Bangkok",
     coordinates: [100.5018, 13.7563],
     flightAndDate:
-      "EK384: 2022/01/10-2022/01/23 | UO705: 2022/01/16-2022/01/29",
+      "UO705: 2022/01/16-2022/01/29 | ET608: 2022/01/22-2022/02/04",
     links: [
-      {
-        flight: "EK384",
-        link: "https://www.info.gov.hk/gia/general/202201/10/P2022011000718.htm",
-        isPressRelease: true,
-      },
       {
         flight: "UO705",
         link: "https://www.info.gov.hk/gia/general/202201/16/P2022011600537.htm",
+        isPressRelease: true,
+      },
+      {
+        flight: "ET608",
+        link: "https://www.info.gov.hk/gia/general/202201/22/P2022012200666.htm",
         isPressRelease: true,
       },
     ],
@@ -122,23 +122,18 @@ export const bannedFlights = [
   //     },
   //   ],
   // },
-  {
-    name: "San Francisco",
-    coordinates: [-122.4194, 37.7749],
-    flightAndDate: "SQ007: 2022/01/09-2022/01/22",
-    links: [
-      // {
-      //   flight: "CX873",
-      //   link: "https://www.info.gov.hk/gia/general/202112/31/P2021123100680.htm",
-      //   isPressRelease: true,
-      // },
-      {
-        flight: "SQ007",
-        link: "https://www.info.gov.hk/gia/general/202201/09/P2022010900644.htm",
-        isPressRelease: true,
-      },
-    ],
-  },
+  // {
+  //   name: "San Francisco",
+  //   coordinates: [-122.4194, 37.7749],
+  //   flightAndDate: "SQ007: 2022/01/09-2022/01/22",
+  //   links: [
+  //     {
+  //       flight: "SQ007",
+  //       link: "https://www.info.gov.hk/gia/general/202201/09/P2022010900644.htm",
+  //       isPressRelease: true,
+  //     },
+  //   ],
+  // },
   // {
   //   name: "Amsterdam",
   //   coordinates: [4.9041, 52.3676],
@@ -238,35 +233,47 @@ export const bannedFlights = [
   {
     name: "Doha",
     coordinates: [51.531, 25.2854],
-    flightAndDate: "QR818: 2022/01/07-2022/01/20",
+    flightAndDate: "QR818: 2022/01/23-2022/02/05",
     links: [
       {
         flight: "QR818",
-        link: "https://www.info.gov.hk/gia/general/202201/07/P2022010700736.htm",
+        link: "https://www.info.gov.hk/gia/general/202201/23/P2022012300648.htm",
         isPressRelease: true,
       },
     ],
   },
+  // {
+  //   name: "Tokyo",
+  //   coordinates: [139.6503, 35.6762],
+  //   flightAndDate: "NH811: 2022/01/07-2022/01/20",
+  //   links: [
+  //     {
+  //       flight: "NH811",
+  //       link: "https://www.info.gov.hk/gia/general/202201/09/P2022010900644.htm",
+  //       isPressRelease: true,
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: "Dubai",
+  //   coordinates: [55.2708, 25.2048],
+  //   flightAndDate: "EK384: 2022/01/10-2022/01/23",
+  //   links: [
+  //     {
+  //       flight: "EK384",
+  //       link: "https://www.info.gov.hk/gia/general/202201/10/P2022011000718.htm",
+  //       isPressRelease: true,
+  //     },
+  //   ],
+  // },
   {
-    name: "Tokyo",
-    coordinates: [139.6503, 35.6762],
-    flightAndDate: "NH811: 2022/01/07-2022/01/20",
+    name: "Addis Ababa",
+    coordinates: [38.7578, 8.9806],
+    flightAndDate: "ET608: 2022/01/22-2022/02/04",
     links: [
       {
-        flight: "NH811",
-        link: "https://www.info.gov.hk/gia/general/202201/09/P2022010900644.htm",
-        isPressRelease: true,
-      },
-    ],
-  },
-  {
-    name: "Dubai",
-    coordinates: [55.2708, 25.2048],
-    flightAndDate: "EK384: 2022/01/10-2022/01/23",
-    links: [
-      {
-        flight: "EK384",
-        link: "https://www.info.gov.hk/gia/general/202201/10/P2022011000718.htm",
+        flight: "ET608",
+        link: "https://www.info.gov.hk/gia/general/202201/22/P2022012200666.htm",
         isPressRelease: true,
       },
     ],

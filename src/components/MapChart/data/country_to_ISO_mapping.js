@@ -227,7 +227,7 @@ export const countryToISOMapping = {
   "Tunisia": "TUN",
   "Turkey": "TUR",
   "Turkmenistan": "TKM",
-  "the Turks and Caicos Islands": "TCA",
+  "Turks and Caicos Islands": "TCA",
   "Tuvalu": "TUV",
   "Uganda": "UGA",
   "Ukraine": "UKR",

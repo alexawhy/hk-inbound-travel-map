@@ -53,6 +53,7 @@ export const aCountriesList = [
   "Guatemala",
   "Guernsey",
   "Guinea",
+  "Honduras",
   "Hungary",
   "Iceland",
   "Indonesia",
@@ -98,6 +99,7 @@ export const aCountriesList = [
   "Oman",
   "Palestine",
   "Panama",
+  "Papua New Guinea",
   "Paraguay",
   "Peru",
   "Poland",
@@ -121,6 +123,7 @@ export const aCountriesList = [
   "Sri Lanka",
   "St Kitts and Nevis",
   "St Vincent and the Grenadines",
+  "Suriname",
   "Sweden",
   "Switzerland",
   "Tanzania",
@@ -139,7 +142,5 @@ export const aCountriesList = [
 ]
 
 export const toBeACountriesList = [
-  { countryName: "Honduras", date: "2022/01/21 00:00" },
-  { countryName: "Papua New Guinea", date: "2022/01/22 00:00" },
-  { countryName: "Suriname", date: "2022/01/22 00:00" },
+  { countryName: "Turks and Caicos Islands", date: "2022/01/25 00:00" },
 ]
