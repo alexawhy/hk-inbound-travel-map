@@ -29,4 +29,6 @@ export const bannedCountriesList = [
   "the Philippines",
   "the United Kingdom",
   "the United States of America",
+  "Guam",
+  "Puerto Rico",
 ]
