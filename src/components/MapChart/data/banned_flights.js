@@ -134,18 +134,18 @@ export const bannedFlights = [
   //     },
   //   ],
   // },
-  // {
-  //   name: "Amsterdam",
-  //   coordinates: [4.9041, 52.3676],
-  //   flightAndDate: "KL819: 2022/01/02-2022/01/15",
-  //   links: [
-  //     {
-  //       flight: "KL819",
-  //       link: "https://www.info.gov.hk/gia/general/202201/02/P2022010200536.htm",
-  //       isPressRelease: true,
-  //     },
-  //   ],
-  // },
+  {
+    name: "Amsterdam",
+    coordinates: [4.9041, 52.3676],
+    flightAndDate: "KL819: 2022/01/25-2022/02/07",
+    links: [
+      {
+        flight: "KL819",
+        link: "https://www.info.gov.hk/gia/general/202201/25/P2022012500853.htm",
+        isPressRelease: true,
+      },
+    ],
+  },
   // {
   //   name: "Manchester",
   //   coordinates: [-2.2426, 53.4808],

@@ -132,6 +132,7 @@ export const aCountriesList = [
   "Trinidad and Tobago",
   "Tunisia",
   "Turkey",
+  "Turks and Caicos Islands",
   "Uganda",
   "Uruguay",
   "Ukraine",
@@ -142,5 +143,5 @@ export const aCountriesList = [
 ]
 
 export const toBeACountriesList = [
-  { countryName: "Turks and Caicos Islands", date: "2022/01/25 00:00" },
+  // { countryName: "Turks and Caicos Islands", date: "2022/01/25 00:00" },
 ]
