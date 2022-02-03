@@ -2,8 +2,13 @@ export const bannedFlights = [
   {
     name: "Bangkok",
     coordinates: [100.5018, 13.7563],
-    flightAndDate: "EK384: 2022/01/26-2022/02/08",
+    flightAndDate: "ET608: 2022/01/22-2022/02/04 | EK384: 2022/01/26-2022/02/08",
     links: [
+      {
+        flight: "ET608",
+        link: "https://www.info.gov.hk/gia/general/202201/22/P2022012200666.htm",
+        isPressRelease: true,
+      },
       {
         flight: "EK384",
         link: "https://www.info.gov.hk/gia/general/202201/26/P2022012600884.htm",
@@ -67,27 +72,27 @@ export const bannedFlights = [
   {
     name: "Helsinki",
     coordinates: [24.9384, 60.1699],
-    flightAndDate: "AY101: 2022/01/18-2022/01/31",
+    flightAndDate: "AY101: 2022/02/03-2022/02/16",
     links: [
       {
         flight: "AY101",
-        link: "https://www.info.gov.hk/gia/general/202201/18/P2022011800582.htm",
+        link: "https://www.info.gov.hk/gia/general/202202/03/P2022020300571.htm",
         isPressRelease: true,
       },
     ],
   },
-  // {
-  //   name: "Istanbul",
-  //   coordinates: [28.9784, 41.0082],
-  //   flightAndDate: "TK083: 2022/01/17-2022/01/30",
-  //   links: [
-  //     {
-  //       flight: "TK083",
-  //       link: "https://www.info.gov.hk/gia/general/202201/17/P2022011700523.htm",
-  //       isPressRelease: true,
-  //     },
-  //   ],
-  // },
+  {
+    name: "Istanbul",
+    coordinates: [28.9784, 41.0082],
+    flightAndDate: "TK083: 2022/02/03-2022/02/16",
+    links: [
+      {
+        flight: "TK083",
+        link: "https://www.info.gov.hk/gia/general/202202/03/P2022020300571.htm",
+        isPressRelease: true,
+      },
+    ],
+  },
   // {
   //   name: "Manila",
   //   coordinates: [120.9842, 14.5995],
