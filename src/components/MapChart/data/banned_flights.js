@@ -2,8 +2,7 @@ export const bannedFlights = [
   {
     name: "Bangkok",
     coordinates: [100.5018, 13.7563],
-    flightAndDate:
-      "EK384: 2022/01/26-2022/02/08",
+    flightAndDate: "EK384: 2022/01/26-2022/02/08",
     links: [
       {
         flight: "EK384",
@@ -225,18 +224,18 @@ export const bannedFlights = [
   //     },
   //   ],
   // },
-  // {
-  //   name: "Doha",
-  //   coordinates: [51.531, 25.2854],
-  //   flightAndDate: "QR818: 2022/01/23-2022/02/05",
-  //   links: [
-  //     {
-  //       flight: "QR818",
-  //       link: "https://www.info.gov.hk/gia/general/202201/23/P2022012300648.htm",
-  //       isPressRelease: true,
-  //     },
-  //   ],
-  // },
+  {
+    name: "Doha",
+    coordinates: [51.531, 25.2854],
+    flightAndDate: "QR818: 2022/01/23-2022/02/05",
+    links: [
+      {
+        flight: "QR818",
+        link: "https://www.info.gov.hk/gia/general/202201/23/P2022012300648.htm",
+        isPressRelease: true,
+      },
+    ],
+  },
   // {
   //   name: "Tokyo",
   //   coordinates: [139.6503, 35.6762],
@@ -261,18 +260,18 @@ export const bannedFlights = [
       },
     ],
   },
-  // {
-  //   name: "Addis Ababa",
-  //   coordinates: [38.7578, 8.9806],
-  //   flightAndDate: "ET608: 2022/01/22-2022/02/04",
-  //   links: [
-  //     {
-  //       flight: "ET608",
-  //       link: "https://www.info.gov.hk/gia/general/202201/22/P2022012200666.htm",
-  //       isPressRelease: true,
-  //     },
-  //   ],
-  // },
+  {
+    name: "Addis Ababa",
+    coordinates: [38.7578, 8.9806],
+    flightAndDate: "ET608: 2022/01/22-2022/02/04",
+    links: [
+      {
+        flight: "ET608",
+        link: "https://www.info.gov.hk/gia/general/202201/22/P2022012200666.htm",
+        isPressRelease: true,
+      },
+    ],
+  },
   {
     name: "Jakarta",
     coordinates: [106.8456, -6.2088],
