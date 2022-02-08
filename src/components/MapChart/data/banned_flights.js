@@ -224,18 +224,18 @@ export const bannedFlights = [
   //     },
   //   ],
   // },
-  // {
-  //   name: "Doha",
-  //   coordinates: [51.531, 25.2854],
-  //   flightAndDate: "QR818: 2022/01/23-2022/02/05",
-  //   links: [
-  //     {
-  //       flight: "QR818",
-  //       link: "https://www.info.gov.hk/gia/general/202201/23/P2022012300648.htm",
-  //       isPressRelease: true,
-  //     },
-  //   ],
-  // },
+  {
+    name: "Doha",
+    coordinates: [51.531, 25.2854],
+    flightAndDate: "QR818: 2022/02/08-2022/02/21",
+    links: [
+      {
+        flight: "QR818",
+        link: "https://www.info.gov.hk/gia/general/202202/08/P2022020800600.htm",
+        isPressRelease: true,
+      },
+    ],
+  },
   // {
   //   name: "Tokyo",
   //   coordinates: [139.6503, 35.6762],
