@@ -184,47 +184,47 @@ export const MapLegend = () => {
         }}
       >
         <Stack direction={"row"} spacing={1}>
-          <BannedLegend />
+          <APlusLegend />
           <Typography fontSize={"1rem"} color={"#FFFFFF"}>
             Flights and passengers ban
           </Typography>
         </Stack>
-        <Stack direction={"row"} spacing={1}>
-          <APlusLegend />
-          <Typography fontSize={"1rem"} color={"#FFFFFF"}>
-            A+
-          </Typography>
-        </Stack>
-        <Stack direction={"row"} spacing={1}>
-          <AToAPlusLegend />
-          <Typography fontSize={"1rem"} color={"#FFFFFF"}>
-            A to be A+
-          </Typography>
-        </Stack>
+        {/*<Stack direction={"row"} spacing={1}>*/}
+        {/*  <APlusLegend />*/}
+        {/*  <Typography fontSize={"1rem"} color={"#FFFFFF"}>*/}
+        {/*    A+*/}
+        {/*  </Typography>*/}
+        {/*</Stack>*/}
+        {/*<Stack direction={"row"} spacing={1}>*/}
+        {/*  <AToAPlusLegend />*/}
+        {/*  <Typography fontSize={"1rem"} color={"#FFFFFF"}>*/}
+        {/*    A to be A+*/}
+        {/*  </Typography>*/}
+        {/*</Stack>*/}
         <Stack direction={"row"} spacing={1}>
           <ALegend />
           <Typography fontSize={"1rem"} color={"#FFFFFF"}>
             A
           </Typography>
         </Stack>
-        <Stack direction={"row"} spacing={1}>
-          <BToALegend />
-          <Typography fontSize={"1rem"} color={"#FFFFFF"}>
-            B to be A
-          </Typography>
-        </Stack>
-        <Stack direction={"row"} spacing={1}>
-          <BLegend />
-          <Typography fontSize={"1rem"} color={"#FFFFFF"}>
-            B
-          </Typography>
-        </Stack>
-        <Stack direction={"row"} spacing={1}>
-          <CLegend />
-          <Typography fontSize={"1rem"} color={"#FFFFFF"}>
-            C
-          </Typography>
-        </Stack>
+        {/*<Stack direction={"row"} spacing={1}>*/}
+        {/*  <BToALegend />*/}
+        {/*  <Typography fontSize={"1rem"} color={"#FFFFFF"}>*/}
+        {/*    B to be A*/}
+        {/*  </Typography>*/}
+        {/*</Stack>*/}
+        {/*<Stack direction={"row"} spacing={1}>*/}
+        {/*  <BLegend />*/}
+        {/*  <Typography fontSize={"1rem"} color={"#FFFFFF"}>*/}
+        {/*    B*/}
+        {/*  </Typography>*/}
+        {/*</Stack>*/}
+        {/*<Stack direction={"row"} spacing={1}>*/}
+        {/*  <CLegend />*/}
+        {/*  <Typography fontSize={"1rem"} color={"#FFFFFF"}>*/}
+        {/*    C*/}
+        {/*  </Typography>*/}
+        {/*</Stack>*/}
         <Stack direction={"row"} spacing={1}>
           <CHNTWNLegend />
           <Typography fontSize={"1rem"} color={"#FFFFFF"}>

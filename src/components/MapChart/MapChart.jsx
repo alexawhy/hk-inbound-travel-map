@@ -95,38 +95,31 @@ const MapChart = ({ setTooltipContent, setExternalLinks, externalLinks }) => {
 
               const countryClass = isBannedCountry
                 ? "Flights and passengers banned 2022/01/08-2022/02/18"
-                : isAPlusCountry
-                ? "A+"
-                : isToBeAPlusCountry
-                ? "A to be A+"
-                : isACountry
-                ? "A"
-                : isToBeACountry
-                ? "B to be A"
                 : isChinaOrTaiwan
                 ? "China and Taiwan"
-                : isCCountry
-                ? "C"
-                : "B"
+                : "A"
+
               return (
                 <Geography
                   key={geo.rsmKey}
                   geography={geo}
                   fill={
-                    isBannedCountry ? "url('#banned-lines')":
-                    isAPlusCountry
-                      ? "#EF476F" // A+
-                      : isToBeAPlusCountry
-                      ? "url('#to-be-a-plus-lines')" // A to be A+
-                      : isACountry
-                      ? "#FFD166" // A
-                      : isToBeACountry
-                      ? "url('#to-be-a-lines')" // B to be A
+                    isBannedCountry
+                      ? "#EF476F"
+                      // : isAPlusCountry
+                      // ? "#EF476F" // A+
+                      // : isToBeAPlusCountry
+                      // ? "url('#to-be-a-plus-lines')" // A to be A+
+                      // : isACountry
+                      // ? "#FFD166" // A
+                      // : isToBeACountry
+                      // ? "url('#to-be-a-lines')" // B to be A
                       : isChinaOrTaiwan
                       ? "#073B4C" // China or Taiwan
-                      : isCCountry
-                      ? "#118AB2" // C
-                      : "#06D6A0" // B
+                      // : isCCountry
+                      // ? "#118AB2" // C
+                      // : "#06D6A0" // B
+                      : "#FFD166" // A
                   }
                   onMouseEnter={() => {
                     const { NAME } = geo.properties
