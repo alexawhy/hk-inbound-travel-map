@@ -56,7 +56,7 @@ const toBeACountryCodesAndDates = toBeACountriesList.reduce(
 const chinaTaiwanCountryCodes = ["CHN", "TWN"]
 const cCountryCodes = []
 
-const MapChart = ({ setTooltipContent, setExternalLinks, externalLinks }) => {
+const MapChart = ({ setTooltipContent, setFlightBanLinks, setCountryBanLink }) => {
   return (
     <ComposableMap data-tip="" projection="geoEqualEarth" width={1000}>
       <ZoomableGroup>
@@ -94,7 +94,7 @@ const MapChart = ({ setTooltipContent, setExternalLinks, externalLinks }) => {
               const isCCountry = cCountryCodes.indexOf(iso) !== -1
 
               const countryClass = isBannedCountry
-                ? "Flights and passengers banned 2022/01/08-2022/02/18"
+                ? "Flights and passengers banned 2022/01/08-2022/03/04"
                 : isChinaOrTaiwan
                 ? "China and Taiwan"
                 : "A"
@@ -106,7 +106,7 @@ const MapChart = ({ setTooltipContent, setExternalLinks, externalLinks }) => {
                   fill={
                     isBannedCountry
                       ? "#EF476F"
-                      // : isAPlusCountry
+                      : // : isAPlusCountry
                       // ? "#EF476F" // A+
                       // : isToBeAPlusCountry
                       // ? "url('#to-be-a-plus-lines')" // A to be A+
@@ -114,12 +114,12 @@ const MapChart = ({ setTooltipContent, setExternalLinks, externalLinks }) => {
                       // ? "#FFD166" // A
                       // : isToBeACountry
                       // ? "url('#to-be-a-lines')" // B to be A
-                      : isChinaOrTaiwan
+                      isChinaOrTaiwan
                       ? "#073B4C" // China or Taiwan
-                      // : isCCountry
-                      // ? "#118AB2" // C
-                      // : "#06D6A0" // B
-                      : "#FFD166" // A
+                      : // : isCCountry
+                        // ? "#118AB2" // C
+                        // : "#06D6A0" // B
+                        "#FFD166" // A
                   }
                   onMouseEnter={() => {
                     const { NAME } = geo.properties
@@ -135,6 +135,11 @@ const MapChart = ({ setTooltipContent, setExternalLinks, externalLinks }) => {
                   }}
                   onMouseLeave={() => {
                     setTooltipContent("")
+                  }}
+                  onClick={() => {
+                    if (isBannedCountry) {
+                      setCountryBanLink("https://www.info.gov.hk/gia/general/202202/11/P2022021100536.htm")
+                    }
                   }}
                 />
               )
@@ -152,7 +157,7 @@ const MapChart = ({ setTooltipContent, setExternalLinks, externalLinks }) => {
               setTooltipContent("")
             }}
             onClick={() => {
-              setExternalLinks(links)
+              setFlightBanLinks(links)
             }}
           >
             <BannedFlight />

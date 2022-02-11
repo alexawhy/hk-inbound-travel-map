@@ -25,6 +25,7 @@ export const bannedCountriesList = [
   "Canada",
   "France",
   "India",
+  "Nepal",
   "Pakistan",
   "the Philippines",
   "the United Kingdom",

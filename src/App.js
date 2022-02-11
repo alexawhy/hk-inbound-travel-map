@@ -5,11 +5,12 @@ import MapChart from "./components/MapChart/MapChart"
 import { MapLegend } from "../src/components/MapChart/MapLegend"
 import ReactTooltip from "react-tooltip"
 import { GitHub } from "@mui/icons-material"
-import { Link } from "./components/link/Link"
+import { FlightLinks, CountryBanLink } from "./components/link/Links"
 
 function App() {
   const [tooltipContent, setTooltipContent] = useState("")
-  const [externalLinks, setExternalLinks] = useState([])
+  const [flightBanLinks, setFlightBanLinks] = useState([])
+  const [countryBanLink, setCountryBanLink] = useState("")
   return (
     <Box className="App">
       <header className="App-header">
@@ -17,7 +18,7 @@ function App() {
           Hong Kong Inbound Travel Restrictions Map
         </Typography>
         <Typography fontSize={"1rem"}>
-          Updated at 2022/02/09 02:00 GMT+8
+          Updated at 2022/02/11 19:00 GMT+8
         </Typography>
         <Typography fontSize={"1rem"} marginBottom={"1rem"}>
           All data based on the{" "}
@@ -41,10 +42,12 @@ function App() {
         <ReactTooltip>{tooltipContent}</ReactTooltip>
         <MapChart
           setTooltipContent={setTooltipContent}
-          setExternalLinks={setExternalLinks}
-          externalLinks={externalLinks}
+          setFlightBanLinks={setFlightBanLinks}
+          flightBanLinks={flightBanLinks}
+          setCountryBanLink={setCountryBanLink}
         />
-        <Link externalLinks={externalLinks} />
+        <FlightLinks externalLinks={flightBanLinks} />
+        <CountryBanLink externalLink={countryBanLink} />
       </div>
       <Stack className="footer">
         <a href="https://github.com/alexawhy">
