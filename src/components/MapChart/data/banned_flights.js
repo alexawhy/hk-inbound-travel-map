@@ -2,11 +2,11 @@ export const bannedFlights = [
   {
     name: "Bangkok",
     coordinates: [100.5018, 13.7563],
-    flightAndDate: "EK384: 2022/01/26-2022/02/08",
+    flightAndDate: "EK384: 2022/02/12-2022/02/25",
     links: [
       {
         flight: "EK384",
-        link: "https://www.info.gov.hk/gia/general/202201/26/P2022012600884.htm",
+        link: "https://www.info.gov.hk/gia/general/202202/12/P2022021200589.htm",
         isPressRelease: true,
       },
     ],
@@ -64,30 +64,30 @@ export const bannedFlights = [
   //     },
   //   ],
   // },
-  {
-    name: "Helsinki",
-    coordinates: [24.9384, 60.1699],
-    flightAndDate: "AY101: 2022/02/03-2022/02/16",
-    links: [
-      {
-        flight: "AY101",
-        link: "https://www.info.gov.hk/gia/general/202202/03/P2022020300571.htm",
-        isPressRelease: true,
-      },
-    ],
-  },
-  {
-    name: "Istanbul",
-    coordinates: [28.9784, 41.0082],
-    flightAndDate: "TK083: 2022/02/03-2022/02/16",
-    links: [
-      {
-        flight: "TK083",
-        link: "https://www.info.gov.hk/gia/general/202202/03/P2022020300571.htm",
-        isPressRelease: true,
-      },
-    ],
-  },
+  // {
+  //   name: "Helsinki",
+  //   coordinates: [24.9384, 60.1699],
+  //   flightAndDate: "AY101: 2022/02/03-2022/02/16",
+  //   links: [
+  //     {
+  //       flight: "AY101",
+  //       link: "https://www.info.gov.hk/gia/general/202202/03/P2022020300571.htm",
+  //       isPressRelease: true,
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: "Istanbul",
+  //   coordinates: [28.9784, 41.0082],
+  //   flightAndDate: "TK083: 2022/02/03-2022/02/16",
+  //   links: [
+  //     {
+  //       flight: "TK083",
+  //       link: "https://www.info.gov.hk/gia/general/202202/03/P2022020300571.htm",
+  //       isPressRelease: true,
+  //     },
+  //   ],
+  // },
   // {
   //   name: "Manila",
   //   coordinates: [120.9842, 14.5995],
@@ -200,18 +200,18 @@ export const bannedFlights = [
   //     },
   //   ],
   // },
-  {
-    name: "Kathmandu",
-    coordinates: [85.324, 27.7172],
-    flightAndDate: "RA409: 2022/01/27-2022/02/09",
-    links: [
-      {
-        flight: "RA409",
-        link: "https://www.info.gov.hk/gia/general/202201/06/P2022010600765.htm",
-        isPressRelease: true,
-      },
-    ],
-  },
+  // {
+  //   name: "Kathmandu",
+  //   coordinates: [85.324, 27.7172],
+  //   flightAndDate: "RA409: 2022/01/27-2022/02/09",
+  //   links: [
+  //     {
+  //       flight: "RA409",
+  //       link: "https://www.info.gov.hk/gia/general/202201/06/P2022010600765.htm",
+  //       isPressRelease: true,
+  //     },
+  //   ],
+  // },
   // {
   //   name: "Cebu",
   //   coordinates: [123.8854, 10.3157],
@@ -251,11 +251,11 @@ export const bannedFlights = [
   {
     name: "Dubai",
     coordinates: [55.2708, 25.2048],
-    flightAndDate: "EK384: 2022/01/26-2022/02/08",
+    flightAndDate: "EK384: 2022/02/12-2022/02/25",
     links: [
       {
         flight: "EK384",
-        link: "https://www.info.gov.hk/gia/general/202201/26/P2022012600884.htm",
+        link: "https://www.info.gov.hk/gia/general/202202/12/P2022021200589.htm",
         isPressRelease: true,
       },
     ],
@@ -275,11 +275,17 @@ export const bannedFlights = [
   {
     name: "Jakarta",
     coordinates: [106.8456, -6.2088],
-    flightAndDate: "GA876: 2022/02/01-2022/02/14",
+    flightAndDate:
+      "CX796: 2022/02/14-2022/02/27 | GA876: 2022/02/16-2022/03/01",
     links: [
       {
+        flight: "CX796",
+        link: "https://www.info.gov.hk/gia/general/202202/14/P2022021400691.htm",
+        isPressRelease: true,
+      },
+      {
         flight: "GA876",
-        link: "https://www.info.gov.hk/gia/general/202202/01/P2022020100427.htm",
+        link: "https://www.info.gov.hk/gia/general/202202/16/P2022021600686.htm",
         isPressRelease: true,
       },
     ],
@@ -292,6 +298,18 @@ export const bannedFlights = [
       {
         flight: "CX724",
         link: "https://www.info.gov.hk/gia/general/202202/07/P2022020700687.htm",
+        isPressRelease: true,
+      },
+    ],
+  },
+  {
+    name: "Singapore",
+    coordinates: [103.8198, 1.3521],
+    flightAndDate: "SQ882 and SQ894: 2022/02/16-2022/03/01",
+    links: [
+      {
+        flight: "SQ882 and SQ894",
+        link: "https://www.info.gov.hk/gia/general/202202/16/P2022021600686.htm",
         isPressRelease: true,
       },
     ],
