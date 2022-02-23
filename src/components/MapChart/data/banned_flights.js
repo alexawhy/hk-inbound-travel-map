@@ -2,11 +2,17 @@ export const bannedFlights = [
   {
     name: "Bangkok",
     coordinates: [100.5018, 13.7563],
-    flightAndDate: "EK384: 2022/02/12-2022/02/25",
+    flightAndDate:
+      "EK384: 2022/02/12-2022/02/25 | TG600: 2022/02/20-2022/03/05",
     links: [
       {
         flight: "EK384",
         link: "https://www.info.gov.hk/gia/general/202202/12/P2022021200589.htm",
+        isPressRelease: true,
+      },
+      {
+        flight: "TG600",
+        link: "https://www.info.gov.hk/gia/general/202202/20/P2022022000573.htm",
         isPressRelease: true,
       },
     ],
@@ -128,18 +134,18 @@ export const bannedFlights = [
   //     },
   //   ],
   // },
-  // {
-  //   name: "Amsterdam",
-  //   coordinates: [4.9041, 52.3676],
-  //   flightAndDate: "KL819: 2022/01/25-2022/02/07",
-  //   links: [
-  //     {
-  //       flight: "KL819",
-  //       link: "https://www.info.gov.hk/gia/general/202201/25/P2022012500853.htm",
-  //       isPressRelease: true,
-  //     },
-  //   ],
-  // },
+  {
+    name: "Amsterdam",
+    coordinates: [4.9041, 52.3676],
+    flightAndDate: "KL819: 2022/02/21-2022/03/06",
+    links: [
+      {
+        flight: "KL819",
+        link: "https://www.info.gov.hk/gia/general/202202/21/P2022022100675.htm",
+        isPressRelease: true,
+      },
+    ],
+  },
   // {
   //   name: "Manchester",
   //   coordinates: [-2.2426, 53.4808],
@@ -224,18 +230,18 @@ export const bannedFlights = [
   //     },
   //   ],
   // },
-  {
-    name: "Doha",
-    coordinates: [51.531, 25.2854],
-    flightAndDate: "QR818: 2022/02/08-2022/02/21",
-    links: [
-      {
-        flight: "QR818",
-        link: "https://www.info.gov.hk/gia/general/202202/08/P2022020800600.htm",
-        isPressRelease: true,
-      },
-    ],
-  },
+  // {
+  //   name: "Doha",
+  //   coordinates: [51.531, 25.2854],
+  //   flightAndDate: "QR818: 2022/02/08-2022/02/21",
+  //   links: [
+  //     {
+  //       flight: "QR818",
+  //       link: "https://www.info.gov.hk/gia/general/202202/08/P2022020800600.htm",
+  //       isPressRelease: true,
+  //     },
+  //   ],
+  // },
   // {
   //   name: "Tokyo",
   //   coordinates: [139.6503, 35.6762],
@@ -305,11 +311,17 @@ export const bannedFlights = [
   {
     name: "Singapore",
     coordinates: [103.8198, 1.3521],
-    flightAndDate: "SQ882 and SQ894: 2022/02/16-2022/03/01",
+    flightAndDate:
+      "SQ882 and SQ894: 2022/02/16-2022/03/01 | TR980: 2022/02/21-2022/03/06",
     links: [
       {
         flight: "SQ882 and SQ894",
         link: "https://www.info.gov.hk/gia/general/202202/16/P2022021600686.htm",
+        isPressRelease: true,
+      },
+      {
+        flight: "TR980",
+        link: "https://www.info.gov.hk/gia/general/202202/21/P2022022100675.htm",
         isPressRelease: true,
       },
     ],
