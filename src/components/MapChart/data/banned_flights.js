@@ -3,16 +3,17 @@ export const bannedFlights = [
     name: "Bangkok",
     coordinates: [100.5018, 13.7563],
     flightAndDate:
-      "EK384: 2022/02/12-2022/02/25 | TG600: 2022/02/20-2022/03/05",
+      "TG600: 2022/02/20-2022/03/05 | EK384: 2022/03/01-2022/03/14",
     links: [
-      {
-        flight: "EK384",
-        link: "https://www.info.gov.hk/gia/general/202202/12/P2022021200589.htm",
-        isPressRelease: true,
-      },
+ 
       {
         flight: "TG600",
         link: "https://www.info.gov.hk/gia/general/202202/20/P2022022000573.htm",
+        isPressRelease: true,
+      },
+      {
+        flight: "EK384",
+        link: "https://www.info.gov.hk/gia/general/202203/01/P2022030100642.htm",
         isPressRelease: true,
       },
     ],
@@ -257,11 +258,11 @@ export const bannedFlights = [
   {
     name: "Dubai",
     coordinates: [55.2708, 25.2048],
-    flightAndDate: "EK384: 2022/02/12-2022/02/25",
+    flightAndDate: "EK384: 2022/03/01-2022/03/14",
     links: [
       {
         flight: "EK384",
-        link: "https://www.info.gov.hk/gia/general/202202/12/P2022021200589.htm",
+        link: "https://www.info.gov.hk/gia/general/202203/01/P2022030100642.htm",
         isPressRelease: true,
       },
     ],
@@ -282,18 +283,18 @@ export const bannedFlights = [
     name: "Jakarta",
     coordinates: [106.8456, -6.2088],
     flightAndDate:
-      "CX796: 2022/02/14-2022/02/27 | GA876: 2022/02/16-2022/03/01",
+      "CX796: 2022/03/03-2022/03/16",
     links: [
       {
         flight: "CX796",
-        link: "https://www.info.gov.hk/gia/general/202202/14/P2022021400691.htm",
+        link: "https://www.info.gov.hk/gia/general/202203/02/P2022030200673.htm",
         isPressRelease: true,
       },
-      {
-        flight: "GA876",
-        link: "https://www.info.gov.hk/gia/general/202202/16/P2022021600686.htm",
-        isPressRelease: true,
-      },
+      // {
+      //   flight: "GA876",
+      //   link: "https://www.info.gov.hk/gia/general/202202/16/P2022021600686.htm",
+      //   isPressRelease: true,
+      // },
     ],
   },
   {
